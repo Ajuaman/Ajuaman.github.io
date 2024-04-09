@@ -18,21 +18,33 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: poop shit fart
+title: Philomatics
 email: tate.chin@mail.utoronto.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The purpose of the website is to discuss some of the topics 
+  I've learned throughout my academic journey as a mathematics major
+  at the University of Toronto. It will also serve as a place for me to
+  discuss my thoughts on various political issues and philosophical
+  questions.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-
+sidebar:
+  - name: Google Scholar
+    icon: <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" style="vertical-align:-0.125em;" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M5.242 13.769L0 9.5L12 0l12 9.5l-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14a7 7 0 0 0 0-14z" fill="currentColor"/></svg>
+    link: https://scholar.google.com/citations?user=zR6afi8AAAAJ
+  - name: GitHub
+    icon: <i class="fa-brands fa-github"></i>
+    link: "https://github.com/Ajuaman"
 # Build settings
-theme: minima
+markdown: kramdown
+remote_theme: BDHU/minimalist
 plugins:
-  - jekyll-feed
+- jekyll-remote-theme
+- jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

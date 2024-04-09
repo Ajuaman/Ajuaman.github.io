@@ -1,6 +1,6 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
+layout: page
+title:  "Introduction to Eigenstuff"
 date:   2024-03-22 09:26:18 -0400
 categories: jekyll update
 ---

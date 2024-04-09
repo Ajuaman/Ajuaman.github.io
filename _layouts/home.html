@@ -1,0 +1,24 @@
+---
+layout: default
+usemathjax: true
+---
+
+<head>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<div class="home-content">
+    <h1>Welcome to Philomatics!</h1>
+    <p>This is a place for me to discuss my thoughts on various poltical and philosophical issues, 
+        as well as discussing the mathematics I learned throughout my journey at the University of Toronto.</p>
+
+    {% if site.posts.size > 0 %} 
+    <h2>Posts</h2>
+    <ul>
+        {% for post in site.posts %}
+        <li>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </li>  
+        {% endfor %}
+    </ul>
+    {% endif %}
+</div>
