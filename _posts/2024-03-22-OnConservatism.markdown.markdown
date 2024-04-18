@@ -1,6 +1,6 @@
 ---
 layout: conservatism
-title:  "On Capitalism and Modern Conservative Figures"
+title:  "On Capitalism"
 date:   2024-03-22 09:26:18 -0400
 categories: jekyll update
 ---
@@ -37,3 +37,5 @@ It is one of our true beliefs that at the heart of racism, there has always been
 ## Capitalism and Class Disparities
 
 ## Capitalism and the Prison System
+
+

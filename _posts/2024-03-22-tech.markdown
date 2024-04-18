@@ -1,0 +1,12 @@
+---
+layout: tech
+title:  "On Technology"
+date:   2024-03-22 09:26:18 -0400
+categories: jekyll update
+---
+
+# Introduction
+
+It has become increasingly evident, either through academic papers on the topic or through our own personal experiences that technological and industrial development is beginning to make our lives boring, uninteresting, and numbing. It is the source of a new epidemic of loneliness experienced both by myself, and many others around the world, and has had drastic, unchangeable effects on the upcoming generation. 
+
+
